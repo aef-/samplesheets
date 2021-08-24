@@ -10,8 +10,7 @@ requirements:
     listing:
       - entryname: samples.json
         entry: $(inputs.samples)
-      - class File
-        entryname: input-to-csv.py
+      - entryname: input-to-csv.py
         entry: |-
           import json; import csv; j = json.load(open('samples.json'));f=open('sample_sheet.csv', 'w');c=csv.DictWriter(f, fieldnames=['Lane','SampleID','SamplePlate','SampleWell','I7IndexID','Index','Index2','SampleProject','Description'], extrasaction='ignore'); f.write('Lane,Sample_ID,Sample_Plate,Sample_Well,I7_Index_ID,index,index2,Sample_Project,Description\n'); c.writerows(j)
 inputs:
