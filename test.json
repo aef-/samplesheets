@@ -1,0 +1,18 @@
+{
+
+    "samples":[{
+    "CaptureInputNg": "110.0",
+    "Control": "N",
+    "Description": "Tumor",
+    "DnaInputNg": "12.0",
+    "Index": "GTATTGGC",
+    "Lane": 3,
+    "LibraryVolume": "35.0",
+    "Operator": "AR|-;-|10075_D_5|F|NOVASEQ",
+    "Recipe": "IMPACT468",
+    "SampleID": "C-0CREWW-L013-d",
+    "SampleProject": "Project_10075_D",
+    "SampleRef": "Human",
+    "PatientID": "C-8VK0V7",
+    "IgoID": "test"
+    }]}
