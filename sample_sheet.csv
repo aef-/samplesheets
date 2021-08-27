@@ -1,2 +1,2 @@
-Lane,Sample_ID,Sample_Plate,Sample_Well,I7_Index_ID,index,index2,Sample_Project,Description
-3,C-0CREWW-L013-d,,,,GTATTGGC,,Project_10075_D,Tumor
+FCID,Lane,SampleID,SampleRef,Index,Description,Control,Recipe,Operator,SampleProject
+,3,C-0CREWW-L013-d,Human,GTATTGGC,Tumor,N,IMPACT468,AR|-;-|10075_D_5|F|NOVASEQ,Project_10075_D
